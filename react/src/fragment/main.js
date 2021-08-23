@@ -19,7 +19,7 @@ export default (class MainFragment extends Component {
                             </h1>
                             <p className="lead">
                                  de experiencia como Evangelista de
-                                Seguridad &Eacute;tica, expositor y actual Director de
+                                Seguridad Inform&aacute;tica &Eacute;tica, expositor y actual Director de
                                 tecnolog&iacute;a y Co-Fundador de DevelR0X Chile.
                             </p>
                         </div>
