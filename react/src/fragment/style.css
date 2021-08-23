@@ -1,0 +1,7 @@
+#trust {
+    background-image: url('./trust.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-shadow: 1px 1px 0 #000;
+}

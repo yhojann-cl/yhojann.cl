@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f8f8f8;
+    font-family: 'Georgia';
+}
+
+.container {
+    max-width: 1010px;
+}
+
+.bg-gray {
+    background-color: #ccccd4;
+}
+
+header .container {
+    background-image: url('./yhojann-aguilera.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    min-height: 645px;
+    position: relative;
+}
+
+header .container > div {
+    font-style: italic;
+    position: absolute;
+    bottom: 50px;
+    left: 530px;
+    border-top: 1px solid rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+footer {
+    font-family: 'Lato', var(--bs-body-font-family);
+}
+
+footer a.btn {
+    font-family: var(--bs-body-font-family);
+}
+
+footer .links a {
+    width: 130px;
+}
+
+.hader-min h1 {
+    border-top: 1px solid rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.hader-min .face {
+    background-image: url('./yhojann-aguilera.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 400px;
+}
