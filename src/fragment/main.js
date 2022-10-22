@@ -19,8 +19,11 @@ export default (class MainFragment extends Component {
                             </h1>
                             <p className="lead">
                                  de experiencia como Evangelista de
-                                Seguridad Inform&aacute;tica &Eacute;tica, expositor y actual Director de
-                                tecnolog&iacute;a y Co-Fundador de DevelR0X Chile.
+                                Seguridad Inform&aacute;tica &Eacute;tica, expositor y Co-Fundador de
+                                &nbsp;<a rel="noreferrer" target="_blank" href="https://oznet.cl/">Oznet Cybersecurity</a>,
+                                &nbsp;<a rel="noreferrer" target="_blank" href="https://develrox.com/">DevelROX Cybersecurity</a>
+                                &nbsp;<a rel="noreferrer" target="_blank" href="https://bugbounty.cl/">Bugbounty Chile</a>
+                                &nbsp;y&nbsp;<a rel="noreferrer" target="_blank" href="https://ruta102.cl/">Comunicaciones Ruta102</a>.
                             </p>
                         </div>
                     </div>

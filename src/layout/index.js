@@ -28,16 +28,17 @@ export default (class Layout extends Component {
                 </div>
 
                 <MainFragment />
+
                 <footer className="bg-dark text-white pt-5 pb-4">
                     <div className="container text-center">
                         <p className="lead mb-4 links">
-                            <a className="btn btn-outline-secondary" href="https://www.linkedin.com/in/yhojann-aguilera/" target="_blank" rel="noreferrer">
+                            <a className="mx-4 btn btn-outline-secondary" href="mailto:info@yhojann.cl">
+                                <i className="me-2 fa fa-envelope"></i>
+                                Cont&aacute;ctame
+                            </a>
+                            <a className="mx-4 btn btn-outline-secondary" href="https://www.linkedin.com/in/yhojann-aguilera/" target="_blank" rel="noreferrer">
                                 <i className="me-2 fa fa-linkedin-square"></i>
                                 Linkedin
-                            </a>
-                            <span className="px-4"></span>
-                            <a className="btn btn-outline-secondary" href="https://develrox.com/" target="blank" rel="noreferrer">
-                                DevelR0X
                             </a>
                         </p>
                         <hr className="mb-4" />

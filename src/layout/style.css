@@ -45,7 +45,7 @@ footer a.btn {
 }
 
 footer .links a {
-    width: 130px;
+    width: 150px;
 }
 
 .hader-min h1 {
@@ -58,4 +58,8 @@ footer .links a {
     background-repeat: no-repeat;
     background-position: center top;
     min-height: 400px;
+}
+
+a {
+    color: var(--bs-dark);
 }
