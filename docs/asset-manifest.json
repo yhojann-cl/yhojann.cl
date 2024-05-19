@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f8d2af3.css",
+    "main.js": "/static/js/main.1a3afbf4.js",
+    "static/js/453.47270508.chunk.js": "/static/js/453.47270508.chunk.js",
+    "static/media/yhojann-aguilera.png": "/static/media/yhojann-aguilera.8ee5fa8698aec7c9d8ef.png",
+    "static/media/trust.jpg": "/static/media/trust.a05dc9986072d0144588.jpg",
+    "index.html": "/index.html",
+    "main.9f8d2af3.css.map": "/static/css/main.9f8d2af3.css.map",
+    "main.1a3afbf4.js.map": "/static/js/main.1a3afbf4.js.map",
+    "453.47270508.chunk.js.map": "/static/js/453.47270508.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f8d2af3.css",
+    "static/js/main.1a3afbf4.js"
+  ]
+}
