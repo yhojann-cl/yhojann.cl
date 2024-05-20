@@ -2,7 +2,6 @@ import { Component } from 'react';
 import Markdown from 'react-markdown'
 import CarouselComponent from '../components/carousel';
 import FooterComponent from '../components/footer';
-import NavBarComponent from '../components/nav';
 import trustShadowedImg from '../assets/images/trust-shadowed.jpg';
 
 class MainPage extends Component {
@@ -82,7 +81,6 @@ always in trust, transparency and **benefit to people**.
     render() {
         return (
             <div>
-                <NavBarComponent language={this.props.language} />
                 <CarouselComponent language={this.props.language} />
 
                 <div>

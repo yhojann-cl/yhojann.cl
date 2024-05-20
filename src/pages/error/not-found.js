@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import NavComponent from '../../components/nav';
 import FooterComponent from '../../components/footer';
 
 class NotFoundErrorPage extends Component {
@@ -37,9 +36,6 @@ class NotFoundErrorPage extends Component {
     render() {
         return (
             <div className="d-flex flex-column min-vh-100">
-                
-                <NavComponent language={this.props.language} />
-
                 <div className="flex-fill container mt-5 mb-4">
                     <div className="row justify-content-md-center">
                         <div className="col-md-10 px-4 p-md-2 text-center mb-4">

@@ -33,10 +33,10 @@ class CarouselComponent extends Component {
 
     render() {
         return (
-            <div class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active position-relative">
-                        <img src={carousel1Img} class="d-block w-100" alt="Image" />
+            <div className="carousel slide">
+                <div className="carousel-inner">
+                    <div className="carousel-item active position-relative">
+                        <img src={carousel1Img} className="d-block w-100" alt="Image" />
                         <div className="position-absolute top-0 start-0 w-100 h-100">
                             <div className="container h-100">
                                 <div className="row h-100">
