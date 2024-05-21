@@ -20,7 +20,7 @@ class LoaderMockupComponent extends Component {
                 </div>
 
                 <div className="flex-fill align-self-center d-flex flex-row">
-                    <div className="align-self-center spinner-border app-text-color-3 opacity-50"></div>
+                    <div className="align-self-center spinner-border opacity-50"></div>
                 </div>
             </div>
         );
