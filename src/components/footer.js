@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Markdown from 'react-markdown'
+import Markdown from 'react-markdown';
 
 class FooterComponent extends Component {
 
@@ -15,7 +15,6 @@ class FooterComponent extends Component {
                     english: 'English',
                 }
             }
-
         },
         en: {
             name: 'Yhojann Aguilera Aguayo.',
@@ -28,7 +27,6 @@ class FooterComponent extends Component {
                     english: 'English',
                 }
             }
-
         },
     };
 

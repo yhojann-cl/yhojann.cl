@@ -10,9 +10,9 @@ class MainPage extends Component {
     static strings = {
         es: {
             experience: {
-                title: 'Más de 20 años de experiencia',
+                title: 'Más de 25 años de experiencia',
                 body: `
-Evangelista de Seguridad Informática Ética, expositor,
+**Desde 1998**, Evangelista de Seguridad Informática Ética, expositor,
 Co-Administrador de
 [Elhacker.NET](https://foro.elhacker.net/profiles/whk-u148268.html),
 [Underc0de.org](https://underc0de.org/foro/index.php?action=profile;u=20051)
@@ -22,7 +22,7 @@ y Co-Fundador de
 [DevelROX Cybersecurity](https://develrox.com/),
 [Bugbounty Chile](https://bugbounty.cl/),
 [Comunicaciones Ruta102](https://ruta102.cl/) y
-actual Gerente de Mercado en [Insidesecurity](https://insidesecurity.cl/).
+**actual Gerente de Mercado** en [Insidesecurity](https://insidesecurity.cl/).
                 `
             },
             trust: {
@@ -36,9 +36,9 @@ siempre en la confianza, transparencia y el **beneficio a las personas**.
         },
         en: {
             experience: {
-                title: 'More than 20 years of experience',
+                title: 'More than 25 years of experience',
                 body: `
-Ethical Computer Security Evangelist, speaker,
+**From 1998**, Ethical Computer Security Evangelist, speaker,
 Co-Administrator of
 [Elhacker.NET](https://foro.elhacker.net/profiles/whk-u148268.html),
 [Underc0de.org](https://underc0de.org/foro/index.php?action=profile;u=20051)
@@ -48,7 +48,7 @@ and Co-Founder of
 [DevelROX Cybersecurity](https://develrox.com/),
 [Bugbounty Chile](https://bugbounty.cl/),
 [Ruta102 Communications](https://ruta102.cl/) and
-current Market Manager at [Insidesecurity](https://insidesecurity.cl/).
+**current Market Manager** at [Insidesecurity](https://insidesecurity.cl/).
                 `
             },
             trust: {
@@ -80,22 +80,23 @@ always in trust, transparency and **benefit to people**.
 
     render() {
         return (
-            <div>
+            <div className="d-flex flex-column min-vw-100 min-vh-100">
                 <CarouselComponent language={this.props.language} />
 
-                <div>
+                <div className="flex-fill">
                     <div className="container py-5">
                         <div className="py-5 text-center">
                             <h2 className="mb-4 fw-bold">
                                 {this.state.strings.experience.title}
                             </h2>
-                            <p className="mb-0">
+                            <p className="mb-5">
                                 <Markdown
                                     disallowedElements={[ 'p' ]}
                                     unwrapDisallowed={true}>
                                     {this.state.strings.experience.body}
                                 </Markdown>
                             </p>
+                            <a className="btn btn-secondary px-5" href="#/experience">Leer mas</a>
                         </div>
                     </div>
 

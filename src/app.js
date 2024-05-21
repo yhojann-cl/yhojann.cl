@@ -13,6 +13,7 @@ import './assets/css/app.css'
 import LoaderMockupComponent from './pages/loader-mockup';
 import NotFoundErrorPage from './pages/error/not-found';
 import MainPage from './pages/main';
+import ExperiencePage from './pages/experience';
 
 // Main component
 class App extends Component {
@@ -30,10 +31,11 @@ class App extends Component {
             fatalError: null
         }
 
-        // Routing security
+        // Routing
         this.components = [
             NotFoundErrorPage,
             MainPage,
+            ExperiencePage,
         ];
 
         // Binds
