@@ -8,13 +8,11 @@ import { NotFoundError, FatalError, IntegrityError } from './error';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import '@fontsource/ubuntu';
+import '@fontsource/source-sans-pro/300.css';
+import '@fontsource/source-sans-pro/400.css';
+import '@fontsource/source-sans-pro/700.css';
 import './assets/css/app.css';
 
-
-/**
- * 
- */
 class App extends Component {
 
     constructor(props) {

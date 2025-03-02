@@ -1,3 +1,5 @@
+import HeaderComponent from '../component/header';
+import FooterComponent from '../component/footer';
 import AppComponent from '../component/component';
 
 
@@ -58,6 +60,11 @@ export default class ErrorPage extends AppComponent {
     render() {
         return (
             <div className="d-flex flex-column min-vh-100">
+                
+                <HeaderComponent
+                    language={this.props.language}
+                    appEvents={this.props.appEvents} />
+
                 <div className="flex-fill container mt-5 mb-4">
                     <div className="row justify-content-md-center">
                         <div className="col-md-10 px-4 p-md-2 text-center mb-4">
@@ -78,6 +85,11 @@ export default class ErrorPage extends AppComponent {
                         </div>
                     </div>
                 </div>
+
+                {/* Default footer component */}
+                <FooterComponent
+                    language={this.props.language}
+                    appEvents={this.props.appEvents} />
             </div>
         );
     }

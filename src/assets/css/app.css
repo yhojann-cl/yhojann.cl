@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
 body{
-    text-align: center;
-    background-color: #0a0b11;
-    color: #eee;
-    font-family: Monospace;
-    font-size: 12px;
-    padding: 0;
-    margin: 0;
+    font-family: "Ubuntu Sans", Arial, sans-serif;
 }
-img{ padding: 7% 10px 0 10px; max-width: 90%; }
-p{ font-size: 16px; margin: 0; padding: 30px 0 0 0; }
+
+h1, h2, h3 {
+    font-family: 'Lato';
+}
+
+.container {
+    max-width: 1100px;
+}

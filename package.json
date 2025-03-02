@@ -1,7 +1,7 @@
 {
   "name": "yhojann_cl",
   "private": true,
-  "version": "1.5.1-stable",
+  "version": "1.5.4-stable",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/ubuntu": "^5.2.0",
+    "@fontsource/source-sans-pro": "^5.2.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
