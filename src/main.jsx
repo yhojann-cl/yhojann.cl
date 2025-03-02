@@ -154,12 +154,6 @@ class App extends Component {
             if(language)
                 return this.setStateAsync({ language: language });
 
-            // User language
-            if(this.state.profile !== null)
-                return this.setStateAsync({
-                    language: this.state.profile.language
-                });
-
             // Browser language
             const browserLanguage = navigator.language.split('-')[0].toLowerCase();
             return this.setStateAsync({
