@@ -1,0 +1,61 @@
+name: Reportar un error
+description: Informar de un error.
+labels: ['bug', 'triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de realizar un reporte recuerde lo siguiente:
+        - **Un buen título** debe contener el problema y su localización, por ejemplo:
+          - Mal título: `La página no se ve bien`.
+          - Buen título: `Color incorrecto en la portada principal`.
+        - El título y el contenido **no deben estar escritos en mayúsculas**.
+        - El detalle del problema debe ser **lo más descriptivo posible**, si el problema no se puede reproducir será marcado como inválido.
+        - Verifique la **integridad de su conexión**. El uso de una red VPN o red insegura puede provocar cambios inesperados en el contenido del sitio WEB.
+        - Si detecta un mismo problema en diferentes lugares, **haga un único reporte**.
+        ---
+  - type: checkboxes
+    id: pre-validation
+    attributes:
+      label: Validaciones antes de publicar
+      description: Realice las siguientes validaciones antes de continuar.
+      options:
+        - label: Mi conexión es segura al momento de reproducir el problema.
+        - label: Mi navegador WEB está actualizado.
+        - label: He intentado vaciar el caché de mi navegador WEB antes de reproducir el problema.
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Cual es el problema?
+      description: Indique con detalle cual es el problema, si es necesario indique como se puede reprducir. Si no podemos reproducir el problema será marcado como inválido.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Propuesta de solución
+      description: ¿Qué propone para remediar este problema? (opcional).
+    validations:
+      required: false
+  - type: textarea
+    id: localization
+    attributes:
+      label: Localización del problema
+      description: Indique en que lugares se presenta el problema, esto nos permitirá saber donde realizar las correcciones.
+    validations:
+      required: true
+  - type: input
+    id: browser-version
+    attributes:
+      label: Nombre y versión de su navegador WEB
+      description: Detalles del navegador WEB utilizado para visualizar el problema.
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Nombre, distribución (si aplica) y versión de su Sistema Operativo
+      description: Detalles del Sistema Operativo utilizado para visualizar el problema.
+    validations:
+      required: true

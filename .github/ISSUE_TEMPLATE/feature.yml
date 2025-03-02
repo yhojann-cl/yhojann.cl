@@ -1,0 +1,19 @@
+name: Propuesta de nuevas ideas
+description: Proposición de ideas, cambios, mejoras y nuevas características.
+title: 'Idea: Título de su idea a proponer'
+labels: ['feature', 'triage']
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: ¿Cual es la idea que propone?
+      description: Describa su idea lo más detallada posible.
+    validations:
+      required: true
+  - type: textarea
+    id: what-solves
+    attributes:
+      label: ¿Qué soluciona o cual es el beneficio?
+      description: Argumente y defienda su idea.
+    validations:
+      required: true
