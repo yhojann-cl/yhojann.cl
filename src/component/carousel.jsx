@@ -1,33 +1,30 @@
-import { Component } from 'react';
+import AppComponent from './component';
 import Markdown from 'react-markdown'
 import carousel1Img from '../assets/images/carousel-1.png';
 
-class CarouselComponent extends Component {
 
-    static strings = {
-        es: {
-            name: 'Yhojann Aguilera Aguayo',
-            subtitle: '*Creando empresas y áreas con almas y pilares sólidos basados siempre en la **confianza**, **transparencia** y el **beneficio a las personas**.*',
-        },
-        en: {
-            name: 'Yhojann Aguilera Aguayo',
-            subtitle: '*Creating companies and areas with solid souls and pillars always based on **trust**, **transparency** and **benefit to people**.*',
-        },
-    };
+/**
+ * 
+ */
+export default class CarouselComponent extends AppComponent {
 
+    /**
+     * Special constructor for base definitions.
+     * @param {*} props 
+     */
     constructor(props) {
-        super(props);
-
-        this.state = {
-            strings: CarouselComponent.strings.en
-        }
-    }
-
-    componentDidMount() {
-        this.setState({
-            strings: CarouselComponent.strings.hasOwnProperty(this.props.language) ?
-                CarouselComponent.strings[this.props.language] :
-                CarouselComponent.strings.en
+        super(props, {
+            strings: {
+                es: {
+                    name: 'Yhojann Aguilera Aguayo',
+                    subtitle: '*Creando empresas y áreas con almas y pilares sólidos basados siempre en la **confianza**, **transparencia** y el **beneficio a las personas**.*',
+                },
+                en: {
+                    name: 'Yhojann Aguilera Aguayo',
+                    subtitle: '*Creating companies and areas with solid souls and pillars always based on **trust**, **transparency** and **benefit to people**.*',
+                },
+            },
+            state: {},
         });
     }
 
@@ -63,5 +60,3 @@ class CarouselComponent extends Component {
         );
     }
 }
-
-export default CarouselComponent;
