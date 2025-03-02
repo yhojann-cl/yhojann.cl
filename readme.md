@@ -1,6 +1,6 @@
 # Personal website
 
-Project created under ReactJS technology for the WEB site https://yhojann.cl/
+Project created under ReactJS technology for the WEB site https://whk.cl/
 
 
 ## Execution
